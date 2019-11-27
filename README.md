@@ -4,7 +4,7 @@
 
 ### open
 
-Open one or more Who's On First documents specified only by their IDs.
+Open one or more Who's On First (WOF) documents specified only by their IDs.
 
 ```
 > go run -mod vendor cmd/open/main.go -h
@@ -25,3 +25,7 @@ go run -mod vendor cmd/open/main.go -root /usr/local/data/sfomuseum-data-exhibit
 Will cause `/usr/local/data/sfomuseum-data-exhibition/data/115/915/940/7/1159159407.geojson` to be opened by the application defined by the `-editor` flag.
 
 If you pass multiple Who's On First IDs each ID will be opened (by the application defined by	the `-editor` flag) in sucession.
+
+## To do
+
+* Integrate with the [go-reader packages](https://github.com/whosonfirst?utf8=%E2%9C%93&q=go-reader&type=&language=) so that it is possible to open remote WOF documents.
