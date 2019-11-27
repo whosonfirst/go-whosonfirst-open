@@ -7,7 +7,7 @@
 Open one or more Who's On First (WOF) documents specified only by their IDs.
 
 ```
-> go run -mod vendor cmd/open/main.go -h
+$> go run -mod vendor cmd/open/main.go -h
   -editor string
     	The editor to open a WOF ID with. If empty the value of the 'EDITOR' environment variable with be used.
   -repo
