@@ -26,7 +26,7 @@ func main() {
 
 	editor := flag.String("editor", "", "The editor to open a WOF ID with. If empty the value of the 'EDITOR' environment variable with be used.")
 	root := flag.String("root", "", "The path where the path for each WOF ID lives. If empty the current directory is used.")
-	is_repo := flag.Bool("repo", false, "Indicates that -root is a whosonfirst style repo and appends a 'data' folder to its path.")
+	is_repo := flag.Bool("repo", true, "Indicates that -root is a whosonfirst style repo and appends a 'data' folder to its path.")
 
 	flag.Parse()
 
