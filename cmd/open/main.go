@@ -33,7 +33,7 @@ func main() {
 	if *editor == "" {
 		*editor = os.Getenv("EDITOR")
 	}
-	
+
 	if *editor == "" {
 		log.Fatal("Missing EDITOR environment variable")
 	}
