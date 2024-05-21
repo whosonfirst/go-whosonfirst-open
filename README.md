@@ -1,5 +1,9 @@
 # go-whosonfirst-open
 
+## Deprecation notice
+
+This package has been deprecated and replaced by the [whosonfirst/wof-cli "open" command](https://github.com/whosonfirst/wof-cli?tab=readme-ov-file#wof-open). 
+
 ## Tools
 
 ### open
